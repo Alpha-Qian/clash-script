@@ -42,7 +42,7 @@ function main(config) {
         //`DOMAIN-SUFFIX,ai.google.dev,${groupName}`,         // Google AI 开发者官网
         //`DOMAIN-SUFFIX,accounts.google.com,${groupName}`,   // Google 账号登录/验证（非常关键！）
         //`DOMAIN-SUFFIX,myaccount.google.com,${groupName}`,   // Google 账号管理
-        `DOMAIN-SUFFIX,google.com,${groupName}`             //所有Google
+        `DOMAIN-SUFFIX,google.com,${groupName}`,             //所有Google
         `DOMAIN-SUFFIX,googleapis.com,${groupName}`
     ];
 
