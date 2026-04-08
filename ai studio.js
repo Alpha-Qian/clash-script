@@ -43,6 +43,7 @@ function main(config) {
         //`DOMAIN-SUFFIX,accounts.google.com,${groupName}`,   // Google 账号登录/验证（非常关键！）
         //`DOMAIN-SUFFIX,myaccount.google.com,${groupName}`,   // Google 账号管理
         `DOMAIN-SUFFIX,google.com,${groupName}`             //所有Google
+        `DOMAIN-SUFFIX,googleapis.com,${groupName}`
     ];
 
     // 清理可能由于多次运行产生的重复旧规则
