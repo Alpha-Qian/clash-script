@@ -11,7 +11,10 @@ function main(config) {
     // 2.1 筛选 AI 节点 (原有逻辑，仅匹配大写 AI)
     const aiNodes = config["proxies"]
         .map(proxy => proxy.name)
-        .filter(name => name.includes("AI"));
+        .filter(name => 
+            name.includes("AI") ||
+            name.includes("gemini")
+        );
 
     // 2.2 筛选 美国 节点 (新增逻辑)
     // 根据你机场的命名习惯，可以自行增删此处的关键字。
